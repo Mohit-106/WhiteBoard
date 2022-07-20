@@ -164,3 +164,19 @@ img {
 .cnvs {
   background: #000;
 }
+
+@media only screen and (max-width: 720px) {
+  .tools-cont{
+  display: flex;
+  flex-direction: column;
+  height: 5rem;
+  width: 60vw;
+  justify-content: space-around;
+  background-color:transparent;
+  position: absolute;
+  border-radius: 16px;
+  top: 15rem;
+  left: 80vw;
+  }
+ 
+}
